@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <title>Rock Paper Scissors - 3 || Baby Mode</title>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+        <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.0/dist/css/bootstrap.min.css" integrity="sha384-B0vP5xmATw1+K9KRQjQERJvTumQW0nPEzvF6L/Z6nronJ3oUOFUFpCjEUQouq2+l" crossorigin="anonymous">
+        <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
+        <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.6.0/dist/js/bootstrap.bundle.min.js" integrity="sha384-Piv4xVNRyMGpqkS2by6br4gNJ7DXjqk09RmUpJ8jgGtD7zP9yug3goQfGII0yAns" crossorigin="anonymous"></script>
+        <link rel="preconnect" href="https://fonts.gstatic.com">
+		<link href="https://fonts.googleapis.com/css2?family=Raleway&family=Syncopate:wght@700&display=swap" rel="stylesheet">
+		<link rel="preconnect" href="https://fonts.gstatic.com">
+		<link href="https://fonts.googleapis.com/css2?family=Bungee+Shade&display=swap" rel="stylesheet">
+        <link rel="stylesheet" type="text/css" href="style&script/rps-3-baby-page/style-rps3bm.css">
+        <script src="style&script/rps-3-baby-page/script-rps3bm.js"></script>
+    </head>
+    <body>
+        <div class="container" id="maincontent">
+            <nav class="navbar navbar-expand-sm navbar-dark justify-content-center fixed-top" id="navibar">   
+                <ul class="navbar-nav">
+                    <li class="nav-item">
+                        <a class="nav-link" href="index.html">HOME</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="tipsandtrickz-page.html">MORE</a>
+                    </li>
+                    <li class="nav-item dropdown">
+                        <a class="nav-link dropdown-toggle" href="#" data-toggle="dropdown">
+                            RPS-3
+                        </a>
+                        <div class="dropdown-menu">
+                            <a class="dropdown-item active" >easy</a>
+                            <a class="dropdown-item" href="rps3-page.html">hard</a>
+                        </div>
+                    </li>
+                    <li class="nav-item dropdown">
+                        <a class="nav-link dropdown-toggle" href="#" data-toggle="dropdown">
+                            RPS-7
+                        </a>
+                        <div class="dropdown-menu">
+                        <a class="dropdown-item" href="rps7bm-page.html">easy</a>
+                        <a class="dropdown-item" href="rps7-page.html">hard</a>
+                        </div>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="abtdevs-page.html">ABOUT</a>
+                    </li>
+                    </ul>
+                </nav>
+            <br>
+            <br>
+            <br>
+            <br>
+            <div id="header">
+                <h1>Rock Paper Scissors</h1>
+                <h1 id="babyh1">-Baby Mode-</h1>
+                <h3 id="headerdesc1">If luck based games is too much for you</h3>
+                <h5 id="headerdesc2">click the button below to see the computer's move</h5>
+            </div>
+            <br>
+            <hr>
+            <br>
+            <br>
+            <br>
+            <div class="buttonz">
+                <button id="buttonrock" type="button" onclick="prock()">rock</button>
+                <button id="buttonpaper" type="button" onclick="ppaper()">paper</button>
+                <button id="buttonscissors" type="button" onclick="pscissors()">scissors</button>
+            </div>
+            <br>
+            <br>
+            <br>
+            <hr>
+            <br>
+            <br>
+            <div class="statements">
+                <div class="compmovebutton" id="whatisthis">
+                    <button id="buttontext2" type="button" onclick="computermove()">See computer's move</button>
+                    <p><span id="compspan1"></span><span id="compspan2"></span></p>
+                </div>
+                <div id="chosen"><p></p></div>
+                <div id="result"><p></p></div>
+                <div id="score"><p></p></div>
+            </div>
+            <br>
+            <br>
+        </div>  
+    </body>
+</html>
